@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function ArticleSection() {
   return (
-    <section className="bg-light-gray h-screen pt-28 px-28">
+    <section className="bg-light-gray h-screen pt-28 px-28 mb-12">
       <h2 className="text-dark-blue text-4xl mb-10">Latest Articles</h2>
       <div className="grid grid-cols-4 gap-5">
         <div className="bg-white rounded-xl overflow-hidden">
