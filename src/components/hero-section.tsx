@@ -1,9 +1,7 @@
 import Image from "next/image";
 import RequestInviteButton from "./request-invite-button";
-import { useState } from "react";
 
 export default function HeroSection() {
-  const [screenWidth, setScreenWidth ] = useState(window.innerWidth);
   return (
     <main className="bg-light-gray w-full h-auto pb-24 lg:pb-0 lg:h-[650px]">
       <div className="w-full xl:w-[1200px] h-full mx-auto px-10 xl:px-0 relative flex flex-col-reverse">
